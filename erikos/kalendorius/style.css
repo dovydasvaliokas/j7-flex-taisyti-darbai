@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.savaites-diena {
+    display: inline-block;
+    background-color: rgb(141, 138, 138);
+    color:rgb(5, 14, 1);
+    height: 20px;
+    text-align: center;
+    width: 200px;
+}
+.savaites-dienos-skaiciais1 {
+    display: inline-block;
+    width: 200px;
+    background-color: rgb(197, 194, 194);
+    color:rgb(5, 14, 1);
+    height: 50px;
+    flex-wrap: wrap;
+    align-content: center;
+    gap:10px;
+}

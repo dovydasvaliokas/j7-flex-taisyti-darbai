@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box kaladeles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="kunas" > 
+        <div class="eilute">
+            <div class="kubai">i </div>
+            <div class="kubai"> n</div>
+            <div class="kubai">d </div>
+            <div class="kubai"> i</div>
+            <div class="kubai zalias">g </div>
+            <div class="kubai"> o</div>
+        </div>
+        <div class="eilute">
+            <div class="kubai">c </div>
+            <div class="kubai">e </div>
+            <div class="kubai zalias">r </div>
+            <div class="kubai">u </div>
+            <div class="kubai">i </div>
+            <div class="kubai"> e</div>
+            <div class="kubai">a </div>
+            <div class="kubai">n </div>
+        </div>
+        <div class="eilute">
+            <div class="kubai">s </div>
+            <div class="kubai">i </div>
+            <div class="kubai">l </div>
+            <div class="kubai"> v</div>
+            <div class="kubai zalias">e </div>
+            <div class="kubai"> r</div>
+        </div>
+        <div class="eilute">
+            <div class="kubai zaliass">e </div>
+            <div class="kubai">b </div>
+            <div class="kubai"> o</div>
+            <div class="kubai">n </div>
+            <div class="kubai"> y</div>
+        </div>
+      
+        <div class="eilute">
+            <div class="kubai"> o</div>
+            <div class="kubai">r </div>
+            <div class="kubai"> a</div>
+            <div class="kubai zalias">n</div>
+            <div class="kubai"> g</div>
+            <div class="kubai"> e</div>
+        </div>
+    </div>
+
+    <div class="nurodymai">
+        <ol>
+            <li>Div'ui, kurio klasė "kunas" nuimkite fiksuotą aukštį ir plotį. Norėčiau, jog ant didesnių ekranų, jis prasiplėstų, o ne liktų toks pat mažas.</li>
+            <li>Kai tai padarysite, pastebėsite, jog išsibarstė jūsų eilutės. Reikėtų naudoti tokį pat metodą kaip ir kalendoriaus puslapyje - eilutėms susikurti div'us.</li>
+            <li>Kai apgaubsite eilutes į papildomus div'us galite ištrinti divus kubai-balti - jie neraikalingi.</li>
+            <li>Toliau, jei pastebėjote, tai pas jus eilutės yra dabar atvaizduojamos iš viršaus į apačią (stulpeliais). Pirmas žodis pirmame stulpelyje, antras antrame stulpelyje, o mums reikia padaryti, jog tas eilutes atvaizduotį kiekvieną atskiroje eilutėje, tai jas visas vaizduoti viename stulpelyje. Todėl, padarome, kad "kunass" div'e yra išdėstome flex-direction: column (į vieną stulpelį viską dėstys). Kai padarėme tai, reikia sukurti eilučių div'ui klasę ir jai padaryti, jog yra flexboxas (display: flex)</li>
+            <li>P.S. Galima buvo pasidaryti, jog tiek žalių tiek pilkų yra tokia pati klasė kubelių, o yra tiesiog papildoma klasė, pavadinimu "zalias", kuri turėtų tik background-color: green. Visi kubai turėtų tą pačią klasę "kubai", o kai kurie dar ir vieną papildomą "zalias". Tai dabar kai keistumėte "kubai" klasę tie stiliai keistųsi tiek žaliam, tiek pilkam kubui. O jeigu ne, tai reikės keitinėti abiems toms stilių grupėms sekančias užduotis:</li>
+            <li>Sucentruoti raides kubeliuose. Kadangi kubeliai yra flexbox, tai galima naudoti flexboxo centravimo stilius: vertikaliai align-items, o horizontaliai justify-content.</li>
+            <li>Padidinti raidžių dydį (font-size), bei padaryti jų spalvą balta.</li>
+        </ol>
+    </div>
+    
+</body>
+</html>

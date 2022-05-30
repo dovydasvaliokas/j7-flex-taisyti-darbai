@@ -1,0 +1,20 @@
+.body, div {
+    display: flex;
+    align-items: flex-start;
+    background-color: blue;
+    flex-direction: row;
+    box-sizing: border-box;
+    color: white;
+}
+
+.pref { 
+    border-radius: 1px;
+    border: 1px solid black;
+    border-color: 2px solid black;
+    width: 300px;
+    height: 300px;
+}
+.pref2 {
+
+
+}

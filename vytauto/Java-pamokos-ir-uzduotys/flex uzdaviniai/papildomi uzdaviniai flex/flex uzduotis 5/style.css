@@ -1,0 +1,59 @@
+.div {
+    display: flex;
+    width: 100%;
+  }
+  
+  .pref {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    border: 3px solid black;
+  }
+
+  .pref2 {
+      display: flex;
+      justify-content: center;
+    border: 5px solid black;
+    font-size: 30px;
+    width: 20%;
+    height: 40px;
+    background-color: darkgrey;
+  }
+
+  .pref3 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    width: 70%;
+  }
+  .pref4 {
+    display:flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 25%;
+
+  }
+  .pref5 {
+    display: flex;
+    gap: 10px;
+    background-color: grey;
+    border-top: 5px solid black;
+    color: white;
+  }
+  .lineup {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .headerC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    background: rgb(73, 73, 73);
+    color: white;
+    height: 150px;
+    font-size: 50px;
+    margin-bottom: 0px;
+    }

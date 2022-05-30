@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+.nurodymai {
+    color: red;
+    font-size:x-large;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.eilute {
+    display: flex;
+}
+
+.kunas{
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: white;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 6px;
+
+}
+.kubai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    font-size: 36px;
+    color: white;
+    height: 60px;
+    background: grey;
+    border: 3px solid white;
+   
+}
+.zalias{
+    background-color: green;
+}

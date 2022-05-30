@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    
+    
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.savaites-dienos{
+    display: flex;
+    width: 95%;
+    height: 50px;
+   background: gray;
+
+}
+.dienu-pavadinimas{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+
+}
+.pirma-eilute{
+    display: flex;
+    
+    width: 95%;
+    height: 70px;
+   
+
+}
+.baltos-eilutes{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(252, 248, 248, 0.822);
+    background-color:  rgba(252, 248, 248, 0.822);
+
+}
+.pilki-su-skaiciais{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    
+    align-items: center;
+    border: 2px solid white;
+    background: gray;
+}
+.antra-eilute{
+    display: flex;
+    width: 95%;
+    height: 70px;
+
+}
+.trecia-eilute{
+    display: flex;
+    width: 95%;
+    height: 70px;
+}
+.ketvirta-eilute{
+    display: flex;
+    width: 95%;
+    height: 70px;
+}
+.penkta-eilute{
+    display: flex;
+    width: 95%;
+    height: 70px;
+    
+}
+.sesta-eilute{
+    display: flex;
+    width: 95%;
+    height: 70px;
+
+}

@@ -1,0 +1,59 @@
+
+.mygtukai-meniu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    background-color: black
+}
+.antraste{
+    display: flex;
+    flex-grow: ;
+    justify-content: center;
+    border: 2px solid white;
+   width: 100%;
+   height: 70px;
+   background-color: black;
+   padding-bottom: 10px;
+   color: aliceblue;
+}
+.mygtukai{
+    display: flex;
+    justify-content: center;
+   
+    width: 18%;
+    height: 30px;
+    background-color: beige;
+    margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+   padding: 0.5em;
+}
+.tekstas{
+    display: flex;
+    width: 100%;
+
+}
+.pirmas-tekstas{
+    display: flex;
+    flex-flow: column;
+    background-color: bisque;
+    width: 60%;
+    padding: 0.5em;
+}
+.antras-tekstas{
+    display: flex;
+    flex-flow: column;
+    background-color: beige;
+    width: 40%;
+    padding: 0.5em;
+
+}
+.apacia{
+    display: flex;
+    justify-content: flex-start;
+    background-color: beige;
+    height: 60px;
+    border-top: 10px solid black;
+}

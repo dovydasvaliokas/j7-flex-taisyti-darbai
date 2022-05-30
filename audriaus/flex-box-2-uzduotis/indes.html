@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6 uzduotis web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="antraste"> <h2>Power Grid : store home page</h3></div>
+    <div class="mygtukai-juosta">
+        <div class="mygtukai"> <a href="www.niekur.com">Home</a></div>
+        <div class="mygtukai"> <a href="www.niekur.com">About</a></div>
+        <div class="mygtukai"> <a href="www.niekur.com">Blog</a></div>
+        <div class="mygtukai"> <a href="www.niekur.com">Carrier</a></div>
+        <div class="mygtukai"> <a href="www.niekur.com">Contact US</a></div>
+
+    </div>
+   <div class="prekiu-blokas">
+       <div class="content-box">
+            <div class="content-wrapper">
+                <img src="ozka1.jpg" alt="">
+                <p>Čia yra vienas sakinys.</p>
+            </div>
+            <div class="mygtukas"> 
+                <a href="www.alio.lt">mygtukas</a>
+            </div>
+    </div>
+       <div class="content-box"> <div class="content-wrapper"><img src="ozka2.jpg" alt=""><p>Čia yra taip pat tik vienas sakinys.</p></div><div class="mygtukas"> <a href="www.alio.lt"> Click Me</a></div>
+    </div>
+       <div class="content-box"><div class="content-wrapper"><img src="ozka3.jpg" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, at recusandae quibusdam ratione necessitatibus, perspiciatis perferendis aut quia labore delectus possimus. Vitae recusandae dolorum modi ullam quibusdam quos praesentium sit.</p></div><div class="mygtukas"> <a href="www.alio.lt">Do Somfthing</a></div>
+    </div>
+    </div>
+    <div class="apacia"> <h3>Copy right</h3></p></div>
+
+    <div class="nurodymai">
+        <ol>
+            <li>Div'ams "pirma", "antra" ir "trecias" reikėtų naudoti tą pačią klasę, kadangi jų bus stokie pat stiliai, nes jie yra tos pačios grupės daiktai.</li>
+            <li>Nuimti "height" stiliaus parametrą divams "prekiu-blokas" bei tai naujai grupei, kuri bus visom trim dėžutėm. Nes su fiksuotu dydžiu tos dėžutės užstoja "Copyright" juostą.</li>
+            <li>Kai tai padarėte, dabar tos trys dėžutės yra ne vienodo aukščio ir nesusilygiavę. Todėl, nuimame vertikalų lygiavimą nuo "prekiu-blokas" div'o, kadangi dabar jam padaryta, jog lygiuotų vertikaliai centre, dėl to jie ne vienodai. (align-items: center ištrinti, defaultinis lygiavimas yra "stretch", o jo kaip tik ir reikia)</li>
+            <li>Toliau, pakeiskite kiekvienos dėžutės tekstus. Padarykite, jog pirmoje dėžutėje yra tik vienas sakinys. Antroje taip pat tik vienas sakinys.</li>
+            <li>Kai tai padarėte, dabar mygtukai bus ne vienodam lygyje. Sulygiuokite mygtukus naudodami flex-boxo lygiavimo stilius ant tos bendros trijų dėžučių klasės. Kadangi pas jus flexbox'e išdėstytas turinys stulpeliu, tai vertikalus lygiavimas šį sykį bus "justify-content" stiliaus parametras.</li>
+            <li>Padarykite toms trims dėžutėms paddingą.</li>
+            <li>Dabar tas tekstas, kur tik vienas sakinys pas jus dar tikriausiai yra viduryje tarp paveiksliuko ir mygtuko, o norėtume, jog eitų iš kart po paveiksliuko. Tai galima padaryti paveiksliuką ir pastraipą apgaubiant papildomu div'u. Tas papildomas div'as su mygtuku lygiuosis vis vien "space-between", o to papildomo div'o viduje paveiksliukas su pastraipa lygiuosis vienas po kito iš kart iš eilės.</li>
+            <li>Toliau, reikia padaryti, jog nuoroda yra per visą mygtuką, t.y., kad bet kur mygtuke spaustume - nuoroda suveiktų. Kadangi pas jus mygtukas yra flexbox, tai užtenka padaryti, jog nuoroda yra 100% pločio ir bus per visą mygtuką. Taip pat dar reikia nuorodos line-height padaryti tokio pat aukščio kaip mygtukas.</li>
+            <li>"Do something" tekstą reikia įdėti į nuorodos (a) elemento turinį (tarp žymių)</li>
+            <li>Taip pat panaikinkite mygtukui margin'us.</li>
+            <li>Dabar, dar galime trumpam grįžti prie viršutinės meniu juostos ir ten nuo mygtukų taip pat reikėtų nuimti marginus. Tarpus padarykite arba pritaikydami kitą justify-content reikšmę (ne center) arba naudokite gap stiliaus parametrą.</li>
+            <li>Taip pat meniu juostai galite pritaikyti dar vertikalų lygiavimą (align-items) bei padaryti jog mygtukų nuoroda būtų per visą mygtuką (plotį nuorodos 100% padaryti). P.S. Meniu juostai align-content nereikia, nes tai lygiuoja kelias eilutes, o tiek juostoje nėra, galbūt jūs sumaišėte su align-items</li>
+            <li>Galiausiai, galite sucentruoti tekstą ant visų mygtukų, kadangi visi mygtukai pas jus yra flex, tai tekstą sulygiuoti galite vertikaliai naudodamas align-items stiliaus parametrą, o horizontaliai naudodamas text-align stiliaus parametrą. P.S. mygtukas klasei vėlgi nereikia align-content, nes jame nėra kelių eilučių, tikriausiai ir vėl sumaišėte su align-items.</li>
+            <li>Pritaikykite visiem elementam stiliaus parametrą "box-sizing" su reikšme "border-box". (rašykite žvaigždutę, jog šitą pritaikyti visiemss elementams) * {
+                box-sizing: border-box;
+            }</li>
+            <li>Padarykite prekiu-blokas lygiavima horizontalu (justify-content), jog butu space-between.</li>
+            <li>Nuimkite visoms nuorodoms pabraukimus. (text-decoration)</li>
+            <li>Spalvas viršutinių mygtukų padarykite geltoną/oranžinę/rudą, apatinių juodą.</li>
+        </ol>
+    </div>
+    
+</body>
+</html>
